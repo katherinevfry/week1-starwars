@@ -1,3 +1,67 @@
 body {
-  background-color:papayawhip;
+  background-color:mistyrose;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: darkslategray;
+  height: 60px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: palegoldenrod;
+  color: black;
+}
+
+/* article {
+  display:flex;
+  flex-flow: row wrap;
+} */
+
+
+/* .section-1 {
+  font-family:'Courier New', Courier, monospace;
+  font-weight:bold;
+} */
+
+section {
+  padding: 25px;
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+
+.card-container {
+display: flex;
+flex-flow: row wrap;
+padding: 25px;
+}
+
+.card {
+  margin: 10px;
+  border: 3px solid salmon;
+  background-color:teal;
+}
+
+.card img {
+  height: 400px;
+
+}
+
+.card h2 {
+  text-align: center;
+  /* background-color:seashell; */
 }
